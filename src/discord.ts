@@ -45,7 +45,7 @@ const channelsForEventType = (
 const colorFor = (eventType: EventType) => {
   switch (eventType) {
     case EventType.created:
-      return '#66dcf0'
+      return '#d60000'
     case EventType.successful:
       return '#62b778'
     case EventType.cancelled:

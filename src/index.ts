@@ -2,6 +2,7 @@ import { fetchEvents } from './opensea'
 import { messageEvents } from './discord'
 import { tweetEvents } from './twitter'
 import { botInterval, logStart } from './util'
+require('dotenv').config();
 
 const { DEBUG } = process.env
 
